@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  app:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: china-client
+    restart: unless-stopped
+    tty: true
+    command: bash
+    volumes:
+      - ./:/root/app
+    ports:
+      - 8126:8081
+

@@ -1,0 +1,142 @@
+/*CSS theo màn hình mà nó dùng chung được*/
+
+/*Màn hình chi tiết đơn hàng*/
+
+.order-detail-icon-status-6868amg {
+  background-color: #ccc;
+  border-radius: 4px;
+  padding: 3px 10px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  user-select: none;
+}
+.order-detail-icon-status-6868amg.poiter {
+  cursor: pointer;
+}
+
+/*Màn hình danh sách kiện - chi tiết đơn hàng*/
+.list-detail-icon-free-6789mgt {
+  display: flex;
+  align-content: center;
+}
+.list-detail-icon-free-6789mgt img {
+  margin-right: 5px;
+}
+.list-detail-icon-free-6789mgt .text-price {
+  display: flex;
+  align-content: center;
+  border-bottom: 1px solid #eeeeee;
+}
+.list-detail-icon-free-6789mgt .text-price .line-1 {
+  width: 100px;
+}
+
+/*Màn hình danh sách kiện - chi tiết kiện hàng nút xem chi tiết*/
+.show-detail-782fkme {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  color: #1771c1;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+
+/*Màn hình list các trạng thái*/
+.frame-list-status-2022 {
+  background-color: #fff;
+  height: 66px;
+  align-items: center;
+  display: flex;
+}
+.frame-list-status-2022 .item-1900 {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+.frame-list-status-2022 .item-1900:hover {
+  opacity: 0.8;
+}
+.frame-list-status-2022 .text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ff568a;
+  padding-left: 30px;
+}
+.frame-list-status-2022 .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  color: #fff;
+  margin-left: 5px;
+  background-color: #ff568a;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/*Màn hình fiterl các bộ lọc*/
+.frame-filter-innput-2022 input {
+  border-radius: 20px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 12px;
+  font-weight: 300;
+  width: 150px;
+  border: 1px solid #3f92d1;
+  text-align: center;
+  padding-left: 30px;
+}
+.frame-filter-innput-2022 input:hover {
+  border: 1px solid #3f92d1;
+}
+.frame-filter-innput-2022 .el-input__icon {
+  line-height: 32px;
+}
+
+.frame-filter-select-2022 input {
+  border: 1px solid #3f92d1;
+  border-radius: 20px;
+  width: 150px;
+  text-align: center;
+}
+.frame-filter-select-2022:hover .el-input__inner {
+  border: 1px solid #3f92d1;
+}
+.frame-filter-select-2022.full-width input {
+  width: 190px;
+}
+
+.frame-filter-item-2022 {
+  margin-right: 15px;
+}
+
+/*Đè ô nhập thời gian chỗ filter*/
+.frame-filter-item-2022 .el-input--prefix .el-input__inner {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 300;
+  background: #ffffff;
+  border: 1px solid #3f92d1;
+  border-radius: 20px;
+  height: 32px;
+}
+.frame-filter-item-2022 .el-input__icon {
+  line-height: 32px;
+}
+.frame-filter-item-2022 .el-date-editor.el-input,
+.frame-filter-item-2022 .el-date-editor.el-input__inner {
+  width: 150px;
+}
